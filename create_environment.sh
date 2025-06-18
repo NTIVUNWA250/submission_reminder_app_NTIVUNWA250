@@ -119,8 +119,8 @@ ASSIGNMENT="Shell Navigation"
 DAYS_REMAINING=2
 ' >> $p_dir/config/config.env
 
-# Adding contents in startup.sh
-
+# Adding contents in submission.
+    
 cat <<EOL >> "$p_dir/assets/submissions.txt"
 Ntivunwa, Git, not submitted
 Gilbert, Shell Navigation, submitted
