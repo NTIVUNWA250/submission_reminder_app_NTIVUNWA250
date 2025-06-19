@@ -21,7 +21,7 @@ done
 # Adding and declaring variables to the directory and the submissions file
 
 p_dir="submission_reminder_$name"
-submissions_file="/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/$p_dir/assets/submissions.txt"
+submissions_file="/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/assets/submissions.txt"
 
 # Checking if the directory exists
 if [ ! -d "$p_dir" ]; then
