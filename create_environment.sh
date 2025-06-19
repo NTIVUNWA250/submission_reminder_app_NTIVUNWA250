@@ -138,15 +138,15 @@ EOL
 
 # Making them executable
 find . -type f -name "*.sh" -exec chmod +x {} \;
-#chmod +x "$p_dir/app/reminder.sh"
-#chmod +x "$p_dir/modules/functions.sh"
-#chmod +x "$p_dir/assets/submissions.txt"
-#chmod +x "$p_dir/config/config.env"
-#chmod +x "$p_dir/startup.sh"
+#chmod u+x "$p_dir/app/reminder.sh"
+#chmod u+x "$p_dir/modules/functions.sh"
+#chmod u+x "$p_dir/assets/submissions.txt"
+#chmod u+x "$p_dir/config/config.env"
+#chmod u+x "$p_dir/startup.sh"
 
 # Tell the user that we're done
 
-echo "The setup is completed✅✅✅."
+echo "The setup is completed."
 echo "-----------------------------"
 echo "You can check: $p_dir"
 echo "-----------------------------"
