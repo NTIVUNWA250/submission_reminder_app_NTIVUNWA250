@@ -76,11 +76,11 @@ fi
 # Update config.env
 
 echo "Updating config.env in $p_dir/config/"
-echo "ASSIGNMENT=\"$matched_assignment\"" > "/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/$p_dir/config/config.env"
-echo "DAYS_REMAINING=$Days" >> "/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/$p_dir/config/config.env"
+echo "ASSIGNMENT=\"$matched_assignment\"" > "/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/config/config.env"
+echo "DAYS_REMAINING=$Days" >> "/mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/config/config.env"
 
 echo "Configuration updated:"
-cat /mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir$p_dir/config/config.env
+cat /mnt/c/Users/pc/Documents/GitHub/submission_reminder_app_NTIVUNWA250/$p_dir/config/config.env
 
 # Ask if they want to start the app
 read -p "Would you like to run the reminder app now? (y/n): " choice
