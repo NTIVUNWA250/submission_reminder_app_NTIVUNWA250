@@ -91,6 +91,6 @@ if [[ "$choice" =~ ^[Yy]$ ]]; then
     echo "The app has started and running"
     echo "_ _ _ _ _ _ _ _"
 else
-    echo "Reminder app not started!!."
+    echo "Reminder app not started!."
     echo "You can run it later using: bash $p_dir/startup.sh"
 fi
