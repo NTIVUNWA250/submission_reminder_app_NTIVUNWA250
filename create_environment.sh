@@ -39,9 +39,6 @@ else
 	echo "inside.................................."
 fi
 
-# Navigate into it
-cd "$p_dir" || exit
-
 
 # Creating subdirectories 
 mkdir -p "$p_dir/app"
@@ -120,7 +117,7 @@ DAYS_REMAINING=2
 ' >> $p_dir/config/config.env
 
 # Adding contents in submission.
-    
+
 cat <<EOL >> "$p_dir/assets/submissions.txt"
 Ntivunwa, Git, not submitted
 Gilbert, Shell Navigation, submitted
